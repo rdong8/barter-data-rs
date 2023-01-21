@@ -1,7 +1,6 @@
 use crate::Identifier;
 use barter_integration::model::SubscriptionId;
 use serde::{Deserialize, Serialize};
-
 /// [`Kraken`](super::Kraken) message variants that can be received over
 /// [`WebSocket`](barter_integration::protocol::websocket::WebSocket).
 ///
